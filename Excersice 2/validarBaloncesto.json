@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "type":"object",
+    "properties": {
+        "name": {"type": "string", "minLength":5},
+        "colour": {"type": "string"},
+        "stadium": {"type": "string", "minLength":5},
+        "historic_team": {"type": "boolean"},
+        "web_reference": {"type": "string"},
+        "players": {"type": "object",
+            "properties": {
+                "pivot": {"type":"array",
+                    "items": {"type":"object",
+                    "properties": {
+                    "name": {"type": "string"},
+                    "dorsal": {"type": "string"}
+                    }
+                }
+            },
+                "alero": {"type":"array",
+                        "items": {"type":"object",
+                        "properties": {
+                        "name": {"type": "string"},
+                        "dorsal": {"type": "string"}
+                        }
+                    }
+                },
+                "base": {"type":"array",
+                        "items": {"type":"object",
+                        "properties": {
+                        "name": {"type": "string"},
+                        "dorsal": {"type": "string"}
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}

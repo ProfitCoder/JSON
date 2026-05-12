@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "type":"object",
+    "properties": {
+        "titulo": {"type": "string", "minLength":5} ,
+        "autor": {
+            "type": "object",
+            "properties": {
+                "nombre": {"type": "string"},
+                "nacionalidad": {"type": "string"}
+            }
+        },
+        "anyo": {"type": "string", "format": "date"},
+        "disponibilidad": {"type":"boolean"},
+        "generos": {"type":"array", 
+        "items": {"type": "string"},
+        "minItems":1,
+        "uniqueItems": true
+        }
+    },
+    "required": ["titulo","disponibilidad"]
+}

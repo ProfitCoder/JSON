@@ -1,0 +1,36 @@
+
+{
+    "name": "Barcelona",
+    "colour": "Blue and red",
+    "stadium": "Arabic Stadium",
+    "historic_team": true,
+    "web_reference": "https://www.fcbarcelona.es/es/baloncesto",
+    "players": {
+       "pivot": [
+            {
+                "name": "Mateo",
+                "dorsal": "18"
+            }
+        ],
+        "alero": [
+            {
+                "name": "Pablo",
+                "dorsal": "68"
+            },
+            {
+                "name": "Vicente",
+                "dorsal": "00"
+            }
+        ],
+        "base": [   
+            {
+                "name": "Dylan",
+                "dorsal": "78"
+            },
+            {
+                "name": "Alvaro",
+                "dorsal": "48"
+            }
+        ]
+    }
+}
