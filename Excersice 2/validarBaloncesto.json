@@ -12,28 +12,28 @@
                 "pivot": {"type":"array",
                     "items": {"type":"object",
                     "properties": {
-                    "name": {"type": "string"},
-                    "dorsal": {"type": "string"}
-                    }
-                }
-            },
-                "alero": {"type":"array",
-                        "items": {"type":"object",
-                        "properties": {
                         "name": {"type": "string"},
                         "dorsal": {"type": "string"}
                         }
                     }
                 },
+                "alero": {"type":"array",
+                        "items": {"type":"object",
+                        "properties": {
+                            "name": {"type": "string"},
+                            "dorsal": {"type": "string"}
+                            }
+                        }
+                    },
                 "base": {"type":"array",
                         "items": {"type":"object",
                         "properties": {
-                        "name": {"type": "string"},
-                        "dorsal": {"type": "string"}
+                            "name": {"type": "string"},
+                            "dorsal": {"type": "string"}
+                            }
                         }
-                    }
-                }   
+                    }      
+                }
             }
-        }
     }
 }
