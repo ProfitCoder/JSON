@@ -1,0 +1,18 @@
+{
+    "videojuego": 
+    {
+        "titulo": "Minecraft",
+        "precio": 29.99,
+        "multijugador": true,
+        "plataformas": ["PC", "PlayStation", "Xbox"]
+    },
+    
+    "coche": 
+    {
+        "marca": "Lamborghini",
+        "modelo": "huracan Evo",
+        "anio": 2019,
+        "electrico": false,
+        "extras": ["Aire acondicionado", "Radio", "Sensores de aparcamiento"]
+    }
+}
